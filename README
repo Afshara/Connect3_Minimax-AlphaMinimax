@@ -1,0 +1,35 @@
+
+Student : Afshara Tasnim
+
+Assignment#3
+
+For this assignment, I have first hooked the computing next board functionality with a new next command to read in a board and print out the result. Then I have implemented a random game with RandomPlayer. I then created a MinimaxPlayer and an MinimaxAlphaBetaPlayer.MinimaxAlphaBetaPlayer uses alpha beta pruning in conjunction with minimax to play the game.
+
+To find the timing in real time for each of the player, MinimaxPlayer and MinimaxAlphaBetaPlayer, please put time infront of their commandline commands to run them. 
+
+For example, 
+
+1) for minimax, please type: 
+
+	time sh run.sh minimax
+
+2) for alphabeta, please type: 
+	time sh run.sh alphabeta
+
+
+From my testing of both of the codes, I have seen a significant difference between the timing of minimax and alphabeta.
+
+Some of my test datas as follow:
+1) Test 1:
+	minimax: real    0m6.034s
+	alphabeta: real    0m0.135s
+2) Test 2:
+	minimax: real    0m6.195s
+	alphabeta: real    0m0.061s
+3) Test 3:
+	minimax: real    0m5.689s
+	alphabeta: real    0m0.052s
+4) Test 4:
+	minimax: real    0m5.652s
+	alphabeta: real    0m0.060s
+
