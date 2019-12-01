@@ -1,11 +1,10 @@
 
-Student : Afshara Tasnim
+I have first hooked the computing next board functionality with a new next command to read in a board and print out the result.
+Then I have implemented a random game with RandomPlayer.I then created a MinimaxPlayer and an MinimaxAlphaBetaPlayer.
+MinimaxAlphaBetaPlayer uses alpha beta pruning in conjunction with minimax to play the game.
 
-Assignment#3
-
-For this assignment, I have first hooked the computing next board functionality with a new next command to read in a board and print out the result. Then I have implemented a random game with RandomPlayer. I then created a MinimaxPlayer and an MinimaxAlphaBetaPlayer.MinimaxAlphaBetaPlayer uses alpha beta pruning in conjunction with minimax to play the game.
-
-To find the timing in real time for each of the player, MinimaxPlayer and MinimaxAlphaBetaPlayer, please put time infront of their commandline commands to run them. 
+To find the timing in real time for each of the player, MinimaxPlayer and MinimaxAlphaBetaPlayer, 
+please put time infront of their commandline commands to run them. 
 
 For example, 
 
